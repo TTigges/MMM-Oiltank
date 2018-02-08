@@ -1,0 +1,88 @@
+#tankvolumen #volume-chart {
+}
+#tankvolumen #volume {
+	text-align: right;
+	font-size: 65px;
+    line-height: 65px;
+}
+#tankvolumen #aral_price-name {
+	text-align: right;
+	opacity: .5;
+	font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#tankvolumen #volume-chart {
+/*	height: 175px; */
+width: 100% !important;
+}
+#tankvolumen #volume-chart svg>text {
+	fill: rgba(255, 255, 255, 0.4);
+}
+#tankvolumen #volume-chart .highcharts-background {
+	fill: #000 !important;
+}
+#tankvolumen #volume-chart .highcharts-yaxis,
+#tankvolumen #volume-chart .highcharts-yaxis-title,
+#tankvolumen #volume-chart .highcharts-yaxis-labels,
+#tankvolumen #volume-chart .highcharts-label,
+#tankvolumen #volume-chart .highcharts-grid,
+#tankvolumen #volume-chart .highcharts-button,
+#tankvolumen #volume-chart .highcharts-title,
+#tankvolumen #volume-chart .highcharts-legend,
+#tankvolumen #volume-chart .highcharts-axis,
+#tankvolumen #volume-chart .highcharts-xaxis-title,
+#tankvolumen #volume-chart .highcharts-xaxis-labels,
+#tankvolumen #volume-chart .highcharts-credits{
+	display: none;
+}
+#tankvolumen #chartlabel {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	line-height: 1;
+}
+#tankvolumen #chartlabel > span {
+	display: inline-block;
+	position: relative;
+	height: 16px;
+	width: 14%;
+}
+#tankvolumen #chartlabel > span:not(:last-child) {
+	border-right: 1px solid #808080;
+}
+#tankvolumen #chartlabel > span.day7 {
+	opacity: 0.4;
+}
+#tankvolumen #chartlabel > span.day6 {
+	opacity: 0.5;
+}
+#tankvolumen #chartlabel > span.day5 {
+	opacity: 0.6;
+}
+#tankvolumen #chartlabel > span.day4 {
+	opacity: 0.7;
+}
+#tankvolumen #chartlabel > span.day3 {
+	opacity: 0.8;
+}
+/* FIXES  
+.bottom {
+	left: -5px;
+	right: 7px;
+}
+.bottom #tankvolumen #volume-chart .u_price,
+.bottom #tankvolumen #volume-chart .u_name {
+	margin-right: 18px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.bottom,
+	.bottom {
+		left: -47px;
+	}	
+	.bottom #tankvolumen #volume-chart .u_history,
+	.bottom #tankvolumen #volume-chart .u_label {
+		right: 7px;
+	}
+}*/
