@@ -1,7 +1,7 @@
 # MMM-Oiltank
 This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It is a product of [this thread](https://forum.magicmirror.builders/topic/6486/show-integer-logs-from-python-script-as-diagram-in-mm/). It is intended to be used with a JSON that is updated daily to report on the tank volume.
 ## Installation
-Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/TTigges/MMM-FullsizeCover`.
+Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/TTigges/MMM-Oiltank`.
 ## Dependencies
 This module reads a JSON with the tank volume.
 ````javascript
@@ -14,6 +14,7 @@ Add the module to the modules array in the `config/config.js` file:
 modules: [
 	{
 		module: 'MMM-Oiltank',
+		position: 'bottom',
 		config: {
 			file: "http://192.168.0.123/yourfile.json" // only works with http: at the moment, doesn't work with localhost
 		}
